@@ -1,0 +1,35 @@
+.navcomponent {
+  display: flex;
+  padding: 0 30px;
+  background-color: #231f20;
+  justify-content: space-between;
+  align-items: center;
+}
+.navcomponent img {
+  width: 180px;
+  height: 150px;
+}
+.manageproduct {
+  background-color: #231f20;
+  display: flex;
+  gap: 30px;
+  align-items: center;
+  justify-content: center;
+  padding: 10px 0;
+}
+.manageproduct a {
+  font-size: 20px;
+}
+.addProductadmin {
+  padding: 10px;
+  text-align: right;
+  background-color: white;
+}
+#addProductadmin {
+  background-color: #c23e5f00;
+  border: none;
+  font-size: 20px;
+}
+#addProductadmin:hover {
+  color: #ef4136;
+}
